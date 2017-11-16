@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YBDayViewTableViewController">
+            <connections>
+                <outlet property="calendar" destination="Oyb-c3-GPC" id="3Wj-2D-bvZ"/>
+                <outlet property="calendarHeight" destination="AfC-RQ-oKk" id="SMB-bM-q2j"/>
+                <outlet property="tableview" destination="i5M-Pr-FkT" id="3pD-Hn-xR2"/>
+                <outlet property="view" destination="gW3-0q-BzY" id="YTp-fm-ris"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="gW3-0q-BzY">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <tableView opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" bouncesZoom="NO" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="i5M-Pr-FkT">
+                    <rect key="frame" x="0.0" y="302" width="375" height="365"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Dj0-t9-aGV"/>
+                        <outlet property="delegate" destination="-1" id="6h0-Dt-1kP"/>
+                        <outlet property="emptyDataSetDelegate" destination="-1" id="86f-uZ-ctn"/>
+                        <outlet property="emptyDataSetSource" destination="-1" id="FXO-zW-5RJ"/>
+                    </connections>
+                </tableView>
+                <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oyb-c3-GPC" customClass="FSCalendar">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="300" id="AfC-RQ-oKk"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="allowsMultipleSelection" value="NO"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="6iS-R0-a5D"/>
+                        <outlet property="delegate" destination="-1" id="o5f-bK-tyf"/>
+                    </connections>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="bottom" id="44F-1w-ko6"/>
+                <constraint firstItem="i5M-Pr-FkT" firstAttribute="leading" secondItem="Oyb-c3-GPC" secondAttribute="leading" id="Hg8-oe-DCn"/>
+                <constraint firstItem="Oyb-c3-GPC" firstAttribute="top" secondItem="gW3-0q-BzY" secondAttribute="top" id="KM5-LJ-NTr"/>
+                <constraint firstItem="i5M-Pr-FkT" firstAttribute="top" secondItem="Oyb-c3-GPC" secondAttribute="bottom" constant="2" id="RJX-1c-5K8"/>
+                <constraint firstItem="i5M-Pr-FkT" firstAttribute="trailing" secondItem="Oyb-c3-GPC" secondAttribute="trailing" id="VQt-mL-GaI"/>
+                <constraint firstItem="Oyb-c3-GPC" firstAttribute="leading" secondItem="gW3-0q-BzY" secondAttribute="leading" id="tIh-fj-ESz"/>
+                <constraint firstAttribute="trailing" secondItem="Oyb-c3-GPC" secondAttribute="trailing" id="vxi-JN-pkr"/>
+            </constraints>
+            <point key="canvasLocation" x="26.5" y="-654.5"/>
+        </view>
+    </objects>
+</document>

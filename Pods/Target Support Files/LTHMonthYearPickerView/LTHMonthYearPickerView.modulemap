@@ -1,0 +1,6 @@
+framework module LTHMonthYearPickerView {
+  umbrella header "LTHMonthYearPickerView-umbrella.h"
+
+  export *
+  module * { export * }
+}

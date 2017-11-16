@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YBMonthCalendarViewController">
+            <connections>
+                <outlet property="calendar" destination="DMc-O9-RKS" id="18V-Cl-xwf"/>
+                <outlet property="currentMonth" destination="dRr-aH-Hd4" id="ICk-yR-19J"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="5m9-qs-5vX"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DMc-O9-RKS" customClass="FSCalendar">
+                    <rect key="frame" x="4" y="50" width="404" height="686"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="allowsMultipleSelection" value="NO"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="pagingEnabled" value="YES"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="scrollEnabled" value="YES"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="showsScopeHandle" value="NO"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="OCe-gX-tdC"/>
+                        <outlet property="delegate" destination="-1" id="3pD-13-eP7"/>
+                    </connections>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Np-GR-Lbe">
+                    <rect key="frame" x="4" y="0.0" width="404" height="50"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dRr-aH-Hd4">
+                            <rect key="frame" x="32" y="10" width="150" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="A4B-k7-AYW"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <state key="normal">
+                                <color key="titleColor" red="0.08235294118" green="0.20392156859999999" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="currentMonthButtonTapped:" destination="-1" eventType="touchUpInside" id="tnZ-2A-Gdn"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wak-L8-bN4">
+                            <rect key="frame" x="291" y="10" width="45" height="30"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <state key="normal" title="Today">
+                                <color key="titleColor" red="0.08235294118" green="0.20392156859999999" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="todayButtonTapped:" destination="-1" eventType="touchUpInside" id="l61-OF-oQG"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="dRr-aH-Hd4" firstAttribute="leading" secondItem="9Np-GR-Lbe" secondAttribute="leading" constant="32" id="I5p-dY-dRP"/>
+                        <constraint firstItem="dRr-aH-Hd4" firstAttribute="centerY" secondItem="9Np-GR-Lbe" secondAttribute="centerY" id="TUk-zz-kbF"/>
+                        <constraint firstItem="dRr-aH-Hd4" firstAttribute="top" secondItem="wak-L8-bN4" secondAttribute="top" id="d6w-pr-fch"/>
+                        <constraint firstAttribute="trailing" secondItem="wak-L8-bN4" secondAttribute="trailing" constant="68" id="tvD-9e-7cU"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="DMc-O9-RKS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="4" id="8K1-bz-I83"/>
+                <constraint firstItem="9Np-GR-Lbe" firstAttribute="leading" secondItem="DMc-O9-RKS" secondAttribute="leading" id="D2t-zW-iHr"/>
+                <constraint firstItem="DMc-O9-RKS" firstAttribute="top" secondItem="9Np-GR-Lbe" secondAttribute="bottom" id="M9Q-C9-759"/>
+                <constraint firstItem="DMc-O9-RKS" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="50" id="T7Q-Da-3hf"/>
+                <constraint firstAttribute="trailing" secondItem="DMc-O9-RKS" secondAttribute="trailing" constant="6" id="bSz-qJ-73a"/>
+                <constraint firstAttribute="bottom" secondItem="DMc-O9-RKS" secondAttribute="bottom" id="oqd-1j-0SK"/>
+                <constraint firstItem="9Np-GR-Lbe" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="s1e-Lr-m9T"/>
+                <constraint firstItem="9Np-GR-Lbe" firstAttribute="trailing" secondItem="DMc-O9-RKS" secondAttribute="trailing" id="w8o-Zf-fVB"/>
+            </constraints>
+            <point key="canvasLocation" x="109" y="23"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="digitalWorkplace_Color" translatesAutoresizingMaskIntoConstraints="NO" id="XyX-Jw-wrl">
+                                <rect key="frame" x="41.666666666666657" y="584" width="331" height="140"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="yearbook_logo" translatesAutoresizingMaskIntoConstraints="NO" id="9tx-GA-m2F">
+                                <rect key="frame" x="117" y="205" width="180" height="175"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="175" id="LFz-qz-DIe"/>
+                                    <constraint firstAttribute="width" secondItem="9tx-GA-m2F" secondAttribute="height" multiplier="1:1" constant="5" id="V62-zx-pGp"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="9tx-GA-m2F" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="185" id="0wp-pk-Pau"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="XyX-Jw-wrl" secondAttribute="bottom" constant="12" id="8f3-6R-3fo"/>
+                            <constraint firstItem="XyX-Jw-wrl" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ROS-Ve-wbP"/>
+                            <constraint firstItem="XyX-Jw-wrl" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.8" id="uWf-rv-dcU"/>
+                            <constraint firstItem="9tx-GA-m2F" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="vJf-FG-wqZ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="145" y="281"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="digitalWorkplace_Color" width="446" height="140"/>
+        <image name="yearbook_logo" width="180" height="175"/>
+    </resources>
+</document>

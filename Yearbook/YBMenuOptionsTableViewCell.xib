@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="OptionsTableViewCell" rowHeight="113" id="KGk-i7-Jjw" customClass="YBMenuOptionsTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="796" height="113"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="796" height="112.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Reportissue" translatesAutoresizingMaskIntoConstraints="NO" id="hUK-KE-SGR">
+                        <rect key="frame" x="15" y="10" width="92.5" height="92.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="hUK-KE-SGR" secondAttribute="height" multiplier="1:1" id="A79-AJ-TOP"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x0Y-WP-9Ix">
+                        <rect key="frame" x="15" y="46" width="280" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="280" id="T1i-zX-Ou2"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="hUK-KE-SGR" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottom" constant="-10" id="4tZ-xv-Fpm"/>
+                    <constraint firstItem="hUK-KE-SGR" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" constant="-20" id="IJt-VW-rcD"/>
+                    <constraint firstItem="hUK-KE-SGR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="OZG-8H-JkM"/>
+                    <constraint firstItem="hUK-KE-SGR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="QNW-ET-H9y"/>
+                    <constraint firstItem="hUK-KE-SGR" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Ub4-91-Yhk"/>
+                    <constraint firstItem="x0Y-WP-9Ix" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="7" id="Ux7-FR-eg2"/>
+                    <constraint firstItem="x0Y-WP-9Ix" firstAttribute="leading" secondItem="hUK-KE-SGR" secondAttribute="trailing" constant="-92.5" id="aXN-9M-cDm"/>
+                    <constraint firstItem="x0Y-WP-9Ix" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="ppS-lP-DZz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="Label" destination="x0Y-WP-9Ix" id="BTU-nu-qbH"/>
+                <outlet property="iconImage" destination="hUK-KE-SGR" id="8K6-vm-wkZ"/>
+            </connections>
+            <point key="canvasLocation" x="-231" y="-94.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Reportissue" width="96" height="96"/>
+    </resources>
+</document>

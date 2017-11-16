@@ -1,0 +1,1017 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E6643E11EE974880051F90B /* YBConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6643E01EE974880051F90B /* YBConstants.m */; };
+		417EFFAF1F4C23B300EE6AF0 /* 1_Tutorial@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 417EFFA01F4C23B300EE6AF0 /* 1_Tutorial@1x.png */; };
+		417EFFB01F4C23B300EE6AF0 /* 1_Tutorial@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 417EFFA11F4C23B300EE6AF0 /* 1_Tutorial@2x.png */; };
+		417EFFB11F4C23B300EE6AF0 /* 1_Tutorial@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 417EFFA21F4C23B300EE6AF0 /* 1_Tutorial@3x.png */; };
+		417EFFB21F4C23B300EE6AF0 /* 2_Tutorial@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 417EFFA31F4C23B300EE6AF0 /* 2_Tutorial@1x.png */; };
+		417EFFB31F4C23B300EE6AF0 /* 2_Tutorial@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 417EFFA41F4C23B300EE6AF0 /* 2_Tutorial@2x.png */; };
+		417EFFB41F4C23B300EE6AF0 /* 2_Tutorial@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 417EFFA51F4C23B300EE6AF0 /* 2_Tutorial@3x.png */; };
+		417EFFB51F4C23B300EE6AF0 /* 3_Tutorial@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 417EFFA61F4C23B300EE6AF0 /* 3_Tutorial@1x.png */; };
+		417EFFB61F4C23B300EE6AF0 /* 3_Tutorial@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 417EFFA71F4C23B300EE6AF0 /* 3_Tutorial@2x.png */; };
+		417EFFB71F4C23B300EE6AF0 /* 3_Tutorial@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 417EFFA81F4C23B300EE6AF0 /* 3_Tutorial@3x.png */; };
+		417EFFB81F4C23B300EE6AF0 /* 5_Tutorial@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 417EFFA91F4C23B300EE6AF0 /* 5_Tutorial@1x.png */; };
+		417EFFB91F4C23B300EE6AF0 /* 5_Tutorial@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 417EFFAA1F4C23B300EE6AF0 /* 5_Tutorial@2x.png */; };
+		417EFFBA1F4C23B300EE6AF0 /* 5_Tutorial@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 417EFFAB1F4C23B300EE6AF0 /* 5_Tutorial@3x.png */; };
+		417EFFBB1F4C23B300EE6AF0 /* 6_Tutorial@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 417EFFAC1F4C23B300EE6AF0 /* 6_Tutorial@1x.png */; };
+		417EFFBC1F4C23B300EE6AF0 /* 6_Tutorial@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 417EFFAD1F4C23B300EE6AF0 /* 6_Tutorial@2x.png */; };
+		417EFFBD1F4C23B300EE6AF0 /* 6_Tutorial@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 417EFFAE1F4C23B300EE6AF0 /* 6_Tutorial@3x.png */; };
+		41826C6F1F5552C90044A535 /* 4_Tutorial@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41826C6C1F5552C90044A535 /* 4_Tutorial@1x.png */; };
+		41826C701F5552C90044A535 /* 4_Tutorial@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41826C6D1F5552C90044A535 /* 4_Tutorial@2x.png */; };
+		41826C711F5552C90044A535 /* 4_Tutorial@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41826C6E1F5552C90044A535 /* 4_Tutorial@3x.png */; };
+		6E5E04ED1E54008000200941 /* YBDayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5E04EB1E54008000200941 /* YBDayViewController.m */; };
+		6E5E04EE1E54008000200941 /* YBDayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E5E04EC1E54008000200941 /* YBDayViewController.xib */; };
+		6E5E04F41E5E220600200941 /* YBViewWithEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5E04F31E5E220600200941 /* YBViewWithEvent.m */; };
+		6E6B532F1E2821890060CF2F /* YBCalUpdatesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6B532D1E2821890060CF2F /* YBCalUpdatesTableViewCell.m */; };
+		6E6B53301E2821890060CF2F /* YBCalUpdatesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E6B532E1E2821890060CF2F /* YBCalUpdatesTableViewCell.xib */; };
+		6E888B941EAD78A000119F8B /* YBCoachMeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E888B931EAD78A000119F8B /* YBCoachMeVC.m */; };
+		6E8950781DDE3B3500C95A6F /* YBMainScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8950771DDE3B3400C95A6F /* YBMainScreenViewController.m */; };
+		6E8950801DDE547C00C95A6F /* CAPSPageMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E89507F1DDE547C00C95A6F /* CAPSPageMenu.m */; };
+		6E8C5EC11E025A1000395190 /* YBMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C5EC01E025A0F00395190 /* YBMenuTableViewController.m */; };
+		6E8C5EC51E02647100395190 /* YBUserProfileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C5EC31E02647100395190 /* YBUserProfileTableViewCell.m */; };
+		6E8C5EC61E02647100395190 /* YBUserProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E8C5EC41E02647100395190 /* YBUserProfileTableViewCell.xib */; };
+		6E8C5ECA1E02684400395190 /* YBMenuOptionsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C5EC81E02684400395190 /* YBMenuOptionsTableViewCell.m */; };
+		6E8C5ECB1E02684400395190 /* YBMenuOptionsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E8C5EC91E02684400395190 /* YBMenuOptionsTableViewCell.xib */; };
+		6E8C5ECF1E02686500395190 /* YBFooterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C5ECD1E02686500395190 /* YBFooterTableViewCell.m */; };
+		6E8C5ED01E02686500395190 /* YBFooterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E8C5ECE1E02686500395190 /* YBFooterTableViewCell.xib */; };
+		6E8C5ED31E03362F00395190 /* YBWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C5ED21E03362F00395190 /* YBWebViewViewController.m */; };
+		6E8C5ED71E073E7900395190 /* YBProfileStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C5ED61E073E7900395190 /* YBProfileStore.m */; };
+		6E9A9DE61DF8A366000758A8 /* YBUserAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9A9DE51DF8A366000758A8 /* YBUserAPI.m */; };
+		6E9A9DEA1DF904DA000758A8 /* YBMonthCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9A9DE81DF904DA000758A8 /* YBMonthCalendarViewController.m */; };
+		6E9A9DEB1DF904DA000758A8 /* YBMonthCalendarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E9A9DE91DF904DA000758A8 /* YBMonthCalendarViewController.xib */; };
+		6E9EDF6C1DE6078000077CB5 /* YBProfileAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9EDF6B1DE6078000077CB5 /* YBProfileAPI.m */; };
+		6E9EDF6F1DE6272600077CB5 /* YBCalendarsAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9EDF6E1DE6272600077CB5 /* YBCalendarsAPI.m */; };
+		6E9EDF721DE744C300077CB5 /* YBCalendarsStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9EDF711DE744C300077CB5 /* YBCalendarsStore.m */; };
+		6E9EDF751DE746F800077CB5 /* YBStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9EDF741DE746F800077CB5 /* YBStore.m */; };
+		6E9EDF781DE79F5E00077CB5 /* YBCalendarCategoryAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9EDF771DE79F5E00077CB5 /* YBCalendarCategoryAPI.m */; };
+		6E9EDF7B1DE7FE9D00077CB5 /* YBCalendarCategoryStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9EDF7A1DE7FE9D00077CB5 /* YBCalendarCategoryStore.m */; };
+		6E9EDF871DE8FF8100077CB5 /* YBCategoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9EDF851DE8FF8100077CB5 /* YBCategoryTableViewCell.m */; };
+		6E9EDF881DE8FF8100077CB5 /* YBCategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E9EDF861DE8FF8100077CB5 /* YBCategoryTableViewCell.xib */; };
+		6E9EDF8B1DE9023100077CB5 /* YBCalendarSelectorTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9EDF8A1DE9023100077CB5 /* YBCalendarSelectorTableViewController.m */; };
+		6E9EDF8E1DEB5D3B00077CB5 /* YBDismissSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9EDF8D1DEB5D3B00077CB5 /* YBDismissSegue.m */; };
+		6E9EDF911DEB8AD700077CB5 /* YBEventsAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9EDF901DEB8AD700077CB5 /* YBEventsAPI.m */; };
+		6E9EDF951DECE5E300077CB5 /* YBEventTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9EDF931DECE5E300077CB5 /* YBEventTableViewCell.m */; };
+		6E9EDF961DECE5E300077CB5 /* YBEventTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E9EDF941DECE5E300077CB5 /* YBEventTableViewCell.xib */; };
+		6E9EDF9A1DECE64000077CB5 /* YBEventsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9EDF981DECE64000077CB5 /* YBEventsTableViewController.m */; };
+		6E9EDF9B1DECE64000077CB5 /* YBEventsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E9EDF991DECE64000077CB5 /* YBEventsTableViewController.xib */; };
+		6E9EDF9E1DED1F6100077CB5 /* YBEventsStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9EDF9D1DED1F6100077CB5 /* YBEventsStore.m */; };
+		6EA782D81E8185F5003510D8 /* YBMenuVersionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA782D61E8185F5003510D8 /* YBMenuVersionCell.m */; };
+		6EA782D91E8185F5003510D8 /* YBMenuVersionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EA782D71E8185F5003510D8 /* YBMenuVersionCell.xib */; };
+		6EBA7A851E1C324100C3336E /* YBDayCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBA7A831E1C324100C3336E /* YBDayCalendarViewController.m */; };
+		6EBA7A861E1C324100C3336E /* YBDayCalendarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EBA7A841E1C324100C3336E /* YBDayCalendarViewController.xib */; };
+		6EBA7A891E1C37FB00C3336E /* YBDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBA7A881E1C37FB00C3336E /* YBDrawerViewController.m */; };
+		6EC8FECF1DF91AA1004A542D /* YBMonthCalendarDateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC8FECE1DF91AA1004A542D /* YBMonthCalendarDateCell.m */; };
+		6EC8FED31DFF2F95004A542D /* YBLoadMoreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC8FED11DFF2F95004A542D /* YBLoadMoreTableViewCell.m */; };
+		6EC8FED41DFF2F95004A542D /* YBLoadMoreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EC8FED21DFF2F95004A542D /* YBLoadMoreTableViewCell.xib */; };
+		6ECE0F9F1E3009BA0004DAC4 /* YBDayViewTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECE0F9D1E3009BA0004DAC4 /* YBDayViewTableViewController.m */; };
+		6ECE0FA01E3009BA0004DAC4 /* YBDayViewTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ECE0F9E1E3009BA0004DAC4 /* YBDayViewTableViewController.xib */; };
+		6ECE0FA41E300A340004DAC4 /* YBHourTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECE0FA21E300A340004DAC4 /* YBHourTableViewCell.m */; };
+		6ECE0FA51E300A340004DAC4 /* YBHourTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ECE0FA31E300A340004DAC4 /* YBHourTableViewCell.xib */; };
+		6ED12B331DDE1B3B0026EFF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED12B321DDE1B3B0026EFF9 /* main.m */; };
+		6ED12B361DDE1B3B0026EFF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED12B351DDE1B3B0026EFF9 /* AppDelegate.m */; };
+		6ED12B391DDE1B3B0026EFF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED12B381DDE1B3B0026EFF9 /* ViewController.m */; };
+		6ED12B3C1DDE1B3B0026EFF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ED12B3A1DDE1B3B0026EFF9 /* Main.storyboard */; };
+		6ED12B3F1DDE1B3B0026EFF9 /* Yearbook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6ED12B3D1DDE1B3B0026EFF9 /* Yearbook.xcdatamodeld */; };
+		6ED12B411DDE1B3B0026EFF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ED12B401DDE1B3B0026EFF9 /* Assets.xcassets */; };
+		6ED12B441DDE1B3B0026EFF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ED12B421DDE1B3B0026EFF9 /* LaunchScreen.storyboard */; };
+		6ED41B881E200C71004AE5E5 /* YBCalendarUpdatesAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED41B871E200C71004AE5E5 /* YBCalendarUpdatesAPI.m */; };
+		6ED41B8C1E203CFB004AE5E5 /* YBCalendarUpdatesStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED41B8A1E200E32004AE5E5 /* YBCalendarUpdatesStore.m */; };
+		6ED41B8F1E203FFE004AE5E5 /* YBCalendarUpdatesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED41B8E1E203FFE004AE5E5 /* YBCalendarUpdatesTableViewController.m */; };
+		6ED41B921E20405C004AE5E5 /* YBEventDetailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED41B911E20405C004AE5E5 /* YBEventDetailsTableViewController.m */; };
+		6ED41B961E23FCA8004AE5E5 /* YBEventDetailsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED41B941E23FCA8004AE5E5 /* YBEventDetailsTableViewCell.m */; };
+		6ED41B971E23FCA8004AE5E5 /* YBEventDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ED41B951E23FCA8004AE5E5 /* YBEventDetailsTableViewCell.xib */; };
+		6ED41BA01E23FD7F004AE5E5 /* YBCalendarSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED41B9E1E23FD7F004AE5E5 /* YBCalendarSelectorViewController.m */; };
+		6ED41BA11E23FD7F004AE5E5 /* YBCalendarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ED41B9F1E23FD7F004AE5E5 /* YBCalendarTableViewCell.xib */; };
+		6ED41BA51E23FDC7004AE5E5 /* YBEventDtCalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED41BA31E23FDC7004AE5E5 /* YBEventDtCalTableViewCell.m */; };
+		6ED41BA61E23FDC7004AE5E5 /* YBEventDtCalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ED41BA41E23FDC7004AE5E5 /* YBEventDtCalTableViewCell.xib */; };
+		6ED41BAA1E23FDDE004AE5E5 /* YBEventDtCateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED41BA81E23FDDE004AE5E5 /* YBEventDtCateTableViewCell.m */; };
+		6ED41BAB1E23FDDE004AE5E5 /* YBEventDtCateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ED41BA91E23FDDE004AE5E5 /* YBEventDtCateTableViewCell.xib */; };
+		6ED41BAE1E2405A3004AE5E5 /* YBCalendarTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED41BAD1E2405A3004AE5E5 /* YBCalendarTableViewCell.m */; };
+		6ED41BB11E2422E0004AE5E5 /* YBCustomNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED41BB01E2422E0004AE5E5 /* YBCustomNavigation.m */; };
+		7DCF430B84D49FD1769DAA3B /* Pods_Yearbook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7EABD20AF3386BD154BCED /* Pods_Yearbook.framework */; };
+		DE3936261F188B8E002D24D1 /* YBEventToSyncWithCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3936251F188B8E002D24D1 /* YBEventToSyncWithCalendar.m */; };
+		DEFBC1F21F14EA54001DD4FF /* YBEventSyncToCalenderService.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFBC1F11F14EA54001DD4FF /* YBEventSyncToCalenderService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DBB8C911F6A839000681873 /* Mars Calendar copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Mars Calendar copy-Info.plist"; path = "/Users/Kumaresh/Desktop/MarsCalendar_1.0.14_inTuneRelease_13Sep_1.0.1_DaylightSaving/Mars Calendar copy-Info.plist"; sourceTree = "<absolute>"; };
+		1E6643DF1EE974880051F90B /* YBConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBConstants.h; sourceTree = "<group>"; };
+		1E6643E01EE974880051F90B /* YBConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBConstants.m; sourceTree = "<group>"; };
+		417EFFA01F4C23B300EE6AF0 /* 1_Tutorial@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1_Tutorial@1x.png"; sourceTree = "<group>"; };
+		417EFFA11F4C23B300EE6AF0 /* 1_Tutorial@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1_Tutorial@2x.png"; sourceTree = "<group>"; };
+		417EFFA21F4C23B300EE6AF0 /* 1_Tutorial@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1_Tutorial@3x.png"; sourceTree = "<group>"; };
+		417EFFA31F4C23B300EE6AF0 /* 2_Tutorial@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2_Tutorial@1x.png"; sourceTree = "<group>"; };
+		417EFFA41F4C23B300EE6AF0 /* 2_Tutorial@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2_Tutorial@2x.png"; sourceTree = "<group>"; };
+		417EFFA51F4C23B300EE6AF0 /* 2_Tutorial@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2_Tutorial@3x.png"; sourceTree = "<group>"; };
+		417EFFA61F4C23B300EE6AF0 /* 3_Tutorial@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3_Tutorial@1x.png"; sourceTree = "<group>"; };
+		417EFFA71F4C23B300EE6AF0 /* 3_Tutorial@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3_Tutorial@2x.png"; sourceTree = "<group>"; };
+		417EFFA81F4C23B300EE6AF0 /* 3_Tutorial@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3_Tutorial@3x.png"; sourceTree = "<group>"; };
+		417EFFA91F4C23B300EE6AF0 /* 5_Tutorial@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5_Tutorial@1x.png"; sourceTree = "<group>"; };
+		417EFFAA1F4C23B300EE6AF0 /* 5_Tutorial@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5_Tutorial@2x.png"; sourceTree = "<group>"; };
+		417EFFAB1F4C23B300EE6AF0 /* 5_Tutorial@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5_Tutorial@3x.png"; sourceTree = "<group>"; };
+		417EFFAC1F4C23B300EE6AF0 /* 6_Tutorial@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6_Tutorial@1x.png"; sourceTree = "<group>"; };
+		417EFFAD1F4C23B300EE6AF0 /* 6_Tutorial@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6_Tutorial@2x.png"; sourceTree = "<group>"; };
+		417EFFAE1F4C23B300EE6AF0 /* 6_Tutorial@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6_Tutorial@3x.png"; sourceTree = "<group>"; };
+		41826C6C1F5552C90044A535 /* 4_Tutorial@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4_Tutorial@1x.png"; sourceTree = "<group>"; };
+		41826C6D1F5552C90044A535 /* 4_Tutorial@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4_Tutorial@2x.png"; sourceTree = "<group>"; };
+		41826C6E1F5552C90044A535 /* 4_Tutorial@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4_Tutorial@3x.png"; sourceTree = "<group>"; };
+		4EFB61A47DD253F120E1D650 /* Pods-Yearbook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yearbook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yearbook/Pods-Yearbook.debug.xcconfig"; sourceTree = "<group>"; };
+		6E5E04EA1E54008000200941 /* YBDayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBDayViewController.h; sourceTree = "<group>"; };
+		6E5E04EB1E54008000200941 /* YBDayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBDayViewController.m; sourceTree = "<group>"; };
+		6E5E04EC1E54008000200941 /* YBDayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YBDayViewController.xib; sourceTree = "<group>"; };
+		6E5E04F21E5E220600200941 /* YBViewWithEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBViewWithEvent.h; sourceTree = "<group>"; };
+		6E5E04F31E5E220600200941 /* YBViewWithEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBViewWithEvent.m; sourceTree = "<group>"; };
+		6E6B532C1E2821890060CF2F /* YBCalUpdatesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBCalUpdatesTableViewCell.h; sourceTree = "<group>"; };
+		6E6B532D1E2821890060CF2F /* YBCalUpdatesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBCalUpdatesTableViewCell.m; sourceTree = "<group>"; };
+		6E6B532E1E2821890060CF2F /* YBCalUpdatesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YBCalUpdatesTableViewCell.xib; sourceTree = "<group>"; };
+		6E888B921EAD78A000119F8B /* YBCoachMeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBCoachMeVC.h; sourceTree = "<group>"; };
+		6E888B931EAD78A000119F8B /* YBCoachMeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBCoachMeVC.m; sourceTree = "<group>"; };
+		6E8950761DDE3B3400C95A6F /* YBMainScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBMainScreenViewController.h; sourceTree = "<group>"; };
+		6E8950771DDE3B3400C95A6F /* YBMainScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBMainScreenViewController.m; sourceTree = "<group>"; };
+		6E89507E1DDE547C00C95A6F /* CAPSPageMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAPSPageMenu.h; sourceTree = "<group>"; };
+		6E89507F1DDE547C00C95A6F /* CAPSPageMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAPSPageMenu.m; sourceTree = "<group>"; };
+		6E8C5EBF1E025A0F00395190 /* YBMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBMenuTableViewController.h; sourceTree = "<group>"; };
+		6E8C5EC01E025A0F00395190 /* YBMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBMenuTableViewController.m; sourceTree = "<group>"; };
+		6E8C5EC21E02647100395190 /* YBUserProfileTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBUserProfileTableViewCell.h; sourceTree = "<group>"; };
+		6E8C5EC31E02647100395190 /* YBUserProfileTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBUserProfileTableViewCell.m; sourceTree = "<group>"; };
+		6E8C5EC41E02647100395190 /* YBUserProfileTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YBUserProfileTableViewCell.xib; sourceTree = "<group>"; };
+		6E8C5EC71E02684400395190 /* YBMenuOptionsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBMenuOptionsTableViewCell.h; sourceTree = "<group>"; };
+		6E8C5EC81E02684400395190 /* YBMenuOptionsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBMenuOptionsTableViewCell.m; sourceTree = "<group>"; };
+		6E8C5EC91E02684400395190 /* YBMenuOptionsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YBMenuOptionsTableViewCell.xib; sourceTree = "<group>"; };
+		6E8C5ECC1E02686500395190 /* YBFooterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBFooterTableViewCell.h; sourceTree = "<group>"; };
+		6E8C5ECD1E02686500395190 /* YBFooterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBFooterTableViewCell.m; sourceTree = "<group>"; };
+		6E8C5ECE1E02686500395190 /* YBFooterTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YBFooterTableViewCell.xib; sourceTree = "<group>"; };
+		6E8C5ED11E03362F00395190 /* YBWebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBWebViewViewController.h; sourceTree = "<group>"; };
+		6E8C5ED21E03362F00395190 /* YBWebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBWebViewViewController.m; sourceTree = "<group>"; };
+		6E8C5ED51E073E7900395190 /* YBProfileStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBProfileStore.h; sourceTree = "<group>"; };
+		6E8C5ED61E073E7900395190 /* YBProfileStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBProfileStore.m; sourceTree = "<group>"; };
+		6E9A9DE41DF8A366000758A8 /* YBUserAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBUserAPI.h; sourceTree = "<group>"; };
+		6E9A9DE51DF8A366000758A8 /* YBUserAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBUserAPI.m; sourceTree = "<group>"; };
+		6E9A9DE71DF904DA000758A8 /* YBMonthCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBMonthCalendarViewController.h; sourceTree = "<group>"; };
+		6E9A9DE81DF904DA000758A8 /* YBMonthCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBMonthCalendarViewController.m; sourceTree = "<group>"; };
+		6E9A9DE91DF904DA000758A8 /* YBMonthCalendarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YBMonthCalendarViewController.xib; sourceTree = "<group>"; };
+		6E9EDF391DE28F0300077CB5 /* Yearbook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Yearbook.entitlements; sourceTree = "<group>"; };
+		6E9EDF461DE364A500077CB5 /* YBUser+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YBUser+CoreDataClass.h"; sourceTree = "<group>"; };
+		6E9EDF471DE364A500077CB5 /* YBUser+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YBUser+CoreDataClass.m"; sourceTree = "<group>"; };
+		6E9EDF481DE364A500077CB5 /* YBUser+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YBUser+CoreDataProperties.h"; sourceTree = "<group>"; };
+		6E9EDF491DE364A500077CB5 /* YBUser+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YBUser+CoreDataProperties.m"; sourceTree = "<group>"; };
+		6E9EDF4E1DE3AB4E00077CB5 /* YBEvents+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YBEvents+CoreDataClass.h"; sourceTree = "<group>"; };
+		6E9EDF4F1DE3AB4E00077CB5 /* YBEvents+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YBEvents+CoreDataClass.m"; sourceTree = "<group>"; };
+		6E9EDF501DE3AB4E00077CB5 /* YBEvents+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YBEvents+CoreDataProperties.h"; sourceTree = "<group>"; };
+		6E9EDF511DE3AB4E00077CB5 /* YBEvents+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YBEvents+CoreDataProperties.m"; sourceTree = "<group>"; };
+		6E9EDF521DE3AB4E00077CB5 /* YBCalendars+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YBCalendars+CoreDataClass.h"; sourceTree = "<group>"; };
+		6E9EDF531DE3AB4E00077CB5 /* YBCalendars+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YBCalendars+CoreDataClass.m"; sourceTree = "<group>"; };
+		6E9EDF541DE3AB4E00077CB5 /* YBCalendars+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YBCalendars+CoreDataProperties.h"; sourceTree = "<group>"; };
+		6E9EDF551DE3AB4E00077CB5 /* YBCalendars+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YBCalendars+CoreDataProperties.m"; sourceTree = "<group>"; };
+		6E9EDF561DE3AB4E00077CB5 /* YBCalendarCategory+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YBCalendarCategory+CoreDataClass.h"; sourceTree = "<group>"; };
+		6E9EDF571DE3AB4E00077CB5 /* YBCalendarCategory+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YBCalendarCategory+CoreDataClass.m"; sourceTree = "<group>"; };
+		6E9EDF581DE3AB4E00077CB5 /* YBCalendarCategory+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YBCalendarCategory+CoreDataProperties.h"; sourceTree = "<group>"; };
+		6E9EDF591DE3AB4E00077CB5 /* YBCalendarCategory+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YBCalendarCategory+CoreDataProperties.m"; sourceTree = "<group>"; };
+		6E9EDF6A1DE6078000077CB5 /* YBProfileAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBProfileAPI.h; sourceTree = "<group>"; };
+		6E9EDF6B1DE6078000077CB5 /* YBProfileAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBProfileAPI.m; sourceTree = "<group>"; };
+		6E9EDF6D1DE6272600077CB5 /* YBCalendarsAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBCalendarsAPI.h; sourceTree = "<group>"; };
+		6E9EDF6E1DE6272600077CB5 /* YBCalendarsAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBCalendarsAPI.m; sourceTree = "<group>"; };
+		6E9EDF701DE744C300077CB5 /* YBCalendarsStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBCalendarsStore.h; sourceTree = "<group>"; };
+		6E9EDF711DE744C300077CB5 /* YBCalendarsStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBCalendarsStore.m; sourceTree = "<group>"; };
+		6E9EDF731DE746F800077CB5 /* YBStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBStore.h; sourceTree = "<group>"; };
+		6E9EDF741DE746F800077CB5 /* YBStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBStore.m; sourceTree = "<group>"; };
+		6E9EDF761DE79F5E00077CB5 /* YBCalendarCategoryAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBCalendarCategoryAPI.h; sourceTree = "<group>"; };
+		6E9EDF771DE79F5E00077CB5 /* YBCalendarCategoryAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBCalendarCategoryAPI.m; sourceTree = "<group>"; };
+		6E9EDF791DE7FE9D00077CB5 /* YBCalendarCategoryStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBCalendarCategoryStore.h; sourceTree = "<group>"; };
+		6E9EDF7A1DE7FE9D00077CB5 /* YBCalendarCategoryStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBCalendarCategoryStore.m; sourceTree = "<group>"; };
+		6E9EDF841DE8FF8100077CB5 /* YBCategoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBCategoryTableViewCell.h; sourceTree = "<group>"; };
+		6E9EDF851DE8FF8100077CB5 /* YBCategoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBCategoryTableViewCell.m; sourceTree = "<group>"; };
+		6E9EDF861DE8FF8100077CB5 /* YBCategoryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YBCategoryTableViewCell.xib; sourceTree = "<group>"; };
+		6E9EDF891DE9023100077CB5 /* YBCalendarSelectorTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBCalendarSelectorTableViewController.h; sourceTree = "<group>"; };
+		6E9EDF8A1DE9023100077CB5 /* YBCalendarSelectorTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBCalendarSelectorTableViewController.m; sourceTree = "<group>"; };
+		6E9EDF8C1DEB5D3B00077CB5 /* YBDismissSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBDismissSegue.h; sourceTree = "<group>"; };
+		6E9EDF8D1DEB5D3B00077CB5 /* YBDismissSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBDismissSegue.m; sourceTree = "<group>"; };
+		6E9EDF8F1DEB8AD700077CB5 /* YBEventsAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBEventsAPI.h; sourceTree = "<group>"; };
+		6E9EDF901DEB8AD700077CB5 /* YBEventsAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBEventsAPI.m; sourceTree = "<group>"; };
+		6E9EDF921DECE5E300077CB5 /* YBEventTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBEventTableViewCell.h; sourceTree = "<group>"; };
+		6E9EDF931DECE5E300077CB5 /* YBEventTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBEventTableViewCell.m; sourceTree = "<group>"; };
+		6E9EDF941DECE5E300077CB5 /* YBEventTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YBEventTableViewCell.xib; sourceTree = "<group>"; };
+		6E9EDF971DECE64000077CB5 /* YBEventsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBEventsTableViewController.h; sourceTree = "<group>"; };
+		6E9EDF981DECE64000077CB5 /* YBEventsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBEventsTableViewController.m; sourceTree = "<group>"; };
+		6E9EDF991DECE64000077CB5 /* YBEventsTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YBEventsTableViewController.xib; sourceTree = "<group>"; };
+		6E9EDF9C1DED1F6100077CB5 /* YBEventsStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBEventsStore.h; sourceTree = "<group>"; };
+		6E9EDF9D1DED1F6100077CB5 /* YBEventsStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBEventsStore.m; sourceTree = "<group>"; };
+		6EA782D51E8185F5003510D8 /* YBMenuVersionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBMenuVersionCell.h; sourceTree = "<group>"; };
+		6EA782D61E8185F5003510D8 /* YBMenuVersionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBMenuVersionCell.m; sourceTree = "<group>"; };
+		6EA782D71E8185F5003510D8 /* YBMenuVersionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YBMenuVersionCell.xib; sourceTree = "<group>"; };
+		6EBA7A821E1C324100C3336E /* YBDayCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBDayCalendarViewController.h; sourceTree = "<group>"; };
+		6EBA7A831E1C324100C3336E /* YBDayCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBDayCalendarViewController.m; sourceTree = "<group>"; };
+		6EBA7A841E1C324100C3336E /* YBDayCalendarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YBDayCalendarViewController.xib; sourceTree = "<group>"; };
+		6EBA7A871E1C37FB00C3336E /* YBDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBDrawerViewController.h; sourceTree = "<group>"; };
+		6EBA7A881E1C37FB00C3336E /* YBDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBDrawerViewController.m; sourceTree = "<group>"; };
+		6EC8FECD1DF91AA1004A542D /* YBMonthCalendarDateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBMonthCalendarDateCell.h; sourceTree = "<group>"; };
+		6EC8FECE1DF91AA1004A542D /* YBMonthCalendarDateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBMonthCalendarDateCell.m; sourceTree = "<group>"; };
+		6EC8FED01DFF2F95004A542D /* YBLoadMoreTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBLoadMoreTableViewCell.h; sourceTree = "<group>"; };
+		6EC8FED11DFF2F95004A542D /* YBLoadMoreTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBLoadMoreTableViewCell.m; sourceTree = "<group>"; };
+		6EC8FED21DFF2F95004A542D /* YBLoadMoreTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YBLoadMoreTableViewCell.xib; sourceTree = "<group>"; };
+		6ECE0F9C1E3009BA0004DAC4 /* YBDayViewTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBDayViewTableViewController.h; sourceTree = "<group>"; };
+		6ECE0F9D1E3009BA0004DAC4 /* YBDayViewTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBDayViewTableViewController.m; sourceTree = "<group>"; };
+		6ECE0F9E1E3009BA0004DAC4 /* YBDayViewTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YBDayViewTableViewController.xib; sourceTree = "<group>"; };
+		6ECE0FA11E300A340004DAC4 /* YBHourTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBHourTableViewCell.h; sourceTree = "<group>"; };
+		6ECE0FA21E300A340004DAC4 /* YBHourTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBHourTableViewCell.m; sourceTree = "<group>"; };
+		6ECE0FA31E300A340004DAC4 /* YBHourTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YBHourTableViewCell.xib; sourceTree = "<group>"; };
+		6ED12B2E1DDE1B3B0026EFF9 /* Mars Calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mars Calendar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ED12B321DDE1B3B0026EFF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6ED12B341DDE1B3B0026EFF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6ED12B351DDE1B3B0026EFF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6ED12B371DDE1B3B0026EFF9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6ED12B381DDE1B3B0026EFF9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6ED12B3B1DDE1B3B0026EFF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6ED12B3E1DDE1B3B0026EFF9 /* Yearbook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Yearbook.xcdatamodel; sourceTree = "<group>"; };
+		6ED12B401DDE1B3B0026EFF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6ED12B431DDE1B3B0026EFF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6ED12B451DDE1B3B0026EFF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ED41B801E200C05004AE5E5 /* YBCalendarUpdates+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YBCalendarUpdates+CoreDataClass.h"; sourceTree = "<group>"; };
+		6ED41B811E200C05004AE5E5 /* YBCalendarUpdates+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YBCalendarUpdates+CoreDataClass.m"; sourceTree = "<group>"; };
+		6ED41B821E200C05004AE5E5 /* YBCalendarUpdates+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YBCalendarUpdates+CoreDataProperties.h"; sourceTree = "<group>"; };
+		6ED41B831E200C05004AE5E5 /* YBCalendarUpdates+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YBCalendarUpdates+CoreDataProperties.m"; sourceTree = "<group>"; };
+		6ED41B861E200C71004AE5E5 /* YBCalendarUpdatesAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBCalendarUpdatesAPI.h; sourceTree = "<group>"; };
+		6ED41B871E200C71004AE5E5 /* YBCalendarUpdatesAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBCalendarUpdatesAPI.m; sourceTree = "<group>"; };
+		6ED41B891E200E32004AE5E5 /* YBCalendarUpdatesStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBCalendarUpdatesStore.h; sourceTree = "<group>"; };
+		6ED41B8A1E200E32004AE5E5 /* YBCalendarUpdatesStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBCalendarUpdatesStore.m; sourceTree = "<group>"; };
+		6ED41B8D1E203FFE004AE5E5 /* YBCalendarUpdatesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBCalendarUpdatesTableViewController.h; sourceTree = "<group>"; };
+		6ED41B8E1E203FFE004AE5E5 /* YBCalendarUpdatesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBCalendarUpdatesTableViewController.m; sourceTree = "<group>"; };
+		6ED41B901E20405C004AE5E5 /* YBEventDetailsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBEventDetailsTableViewController.h; sourceTree = "<group>"; };
+		6ED41B911E20405C004AE5E5 /* YBEventDetailsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBEventDetailsTableViewController.m; sourceTree = "<group>"; };
+		6ED41B931E23FCA8004AE5E5 /* YBEventDetailsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBEventDetailsTableViewCell.h; sourceTree = "<group>"; };
+		6ED41B941E23FCA8004AE5E5 /* YBEventDetailsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBEventDetailsTableViewCell.m; sourceTree = "<group>"; };
+		6ED41B951E23FCA8004AE5E5 /* YBEventDetailsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YBEventDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		6ED41B9D1E23FD7F004AE5E5 /* YBCalendarSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBCalendarSelectorViewController.h; sourceTree = "<group>"; };
+		6ED41B9E1E23FD7F004AE5E5 /* YBCalendarSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBCalendarSelectorViewController.m; sourceTree = "<group>"; };
+		6ED41B9F1E23FD7F004AE5E5 /* YBCalendarTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YBCalendarTableViewCell.xib; sourceTree = "<group>"; };
+		6ED41BA21E23FDC7004AE5E5 /* YBEventDtCalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBEventDtCalTableViewCell.h; sourceTree = "<group>"; };
+		6ED41BA31E23FDC7004AE5E5 /* YBEventDtCalTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBEventDtCalTableViewCell.m; sourceTree = "<group>"; };
+		6ED41BA41E23FDC7004AE5E5 /* YBEventDtCalTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YBEventDtCalTableViewCell.xib; sourceTree = "<group>"; };
+		6ED41BA71E23FDDE004AE5E5 /* YBEventDtCateTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBEventDtCateTableViewCell.h; sourceTree = "<group>"; };
+		6ED41BA81E23FDDE004AE5E5 /* YBEventDtCateTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBEventDtCateTableViewCell.m; sourceTree = "<group>"; };
+		6ED41BA91E23FDDE004AE5E5 /* YBEventDtCateTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YBEventDtCateTableViewCell.xib; sourceTree = "<group>"; };
+		6ED41BAC1E2405A3004AE5E5 /* YBCalendarTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBCalendarTableViewCell.h; sourceTree = "<group>"; };
+		6ED41BAD1E2405A3004AE5E5 /* YBCalendarTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBCalendarTableViewCell.m; sourceTree = "<group>"; };
+		6ED41BAF1E2422E0004AE5E5 /* YBCustomNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBCustomNavigation.h; sourceTree = "<group>"; };
+		6ED41BB01E2422E0004AE5E5 /* YBCustomNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBCustomNavigation.m; sourceTree = "<group>"; };
+		AC7EABD20AF3386BD154BCED /* Pods_Yearbook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yearbook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE3936241F188B8E002D24D1 /* YBEventToSyncWithCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBEventToSyncWithCalendar.h; sourceTree = "<group>"; };
+		DE3936251F188B8E002D24D1 /* YBEventToSyncWithCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBEventToSyncWithCalendar.m; sourceTree = "<group>"; };
+		DEFBC1F01F14EA54001DD4FF /* YBEventSyncToCalenderService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBEventSyncToCalenderService.h; sourceTree = "<group>"; };
+		DEFBC1F11F14EA54001DD4FF /* YBEventSyncToCalenderService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBEventSyncToCalenderService.m; sourceTree = "<group>"; };
+		F534CC98D2C6393CB5F2A8C9 /* Pods-Yearbook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yearbook.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yearbook/Pods-Yearbook.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ED12B2B1DDE1B3A0026EFF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DCF430B84D49FD1769DAA3B /* Pods_Yearbook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		419CD96A1F46FD1A00211593 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				41826C6C1F5552C90044A535 /* 4_Tutorial@1x.png */,
+				41826C6D1F5552C90044A535 /* 4_Tutorial@2x.png */,
+				41826C6E1F5552C90044A535 /* 4_Tutorial@3x.png */,
+				417EFFA41F4C23B300EE6AF0 /* 2_Tutorial@2x.png */,
+				417EFFA01F4C23B300EE6AF0 /* 1_Tutorial@1x.png */,
+				417EFFA11F4C23B300EE6AF0 /* 1_Tutorial@2x.png */,
+				417EFFA21F4C23B300EE6AF0 /* 1_Tutorial@3x.png */,
+				417EFFA31F4C23B300EE6AF0 /* 2_Tutorial@1x.png */,
+				417EFFA51F4C23B300EE6AF0 /* 2_Tutorial@3x.png */,
+				417EFFA61F4C23B300EE6AF0 /* 3_Tutorial@1x.png */,
+				417EFFA71F4C23B300EE6AF0 /* 3_Tutorial@2x.png */,
+				417EFFA81F4C23B300EE6AF0 /* 3_Tutorial@3x.png */,
+				417EFFA91F4C23B300EE6AF0 /* 5_Tutorial@1x.png */,
+				417EFFAA1F4C23B300EE6AF0 /* 5_Tutorial@2x.png */,
+				417EFFAB1F4C23B300EE6AF0 /* 5_Tutorial@3x.png */,
+				417EFFAC1F4C23B300EE6AF0 /* 6_Tutorial@1x.png */,
+				417EFFAD1F4C23B300EE6AF0 /* 6_Tutorial@2x.png */,
+				417EFFAE1F4C23B300EE6AF0 /* 6_Tutorial@3x.png */,
+			);
+			name = Tutorial;
+			sourceTree = "<group>";
+		};
+		6E0594F11DDE2082005790D1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6EBA7A871E1C37FB00C3336E /* YBDrawerViewController.h */,
+				6EBA7A881E1C37FB00C3336E /* YBDrawerViewController.m */,
+				6E89507E1DDE547C00C95A6F /* CAPSPageMenu.h */,
+				6E89507F1DDE547C00C95A6F /* CAPSPageMenu.m */,
+				6ED12B371DDE1B3B0026EFF9 /* ViewController.h */,
+				6ED12B381DDE1B3B0026EFF9 /* ViewController.m */,
+				6E8950761DDE3B3400C95A6F /* YBMainScreenViewController.h */,
+				6E8950771DDE3B3400C95A6F /* YBMainScreenViewController.m */,
+				6E9EDF891DE9023100077CB5 /* YBCalendarSelectorTableViewController.h */,
+				6E9EDF8A1DE9023100077CB5 /* YBCalendarSelectorTableViewController.m */,
+				6E9EDF8C1DEB5D3B00077CB5 /* YBDismissSegue.h */,
+				6E9EDF8D1DEB5D3B00077CB5 /* YBDismissSegue.m */,
+				6E9EDF971DECE64000077CB5 /* YBEventsTableViewController.h */,
+				6E9EDF981DECE64000077CB5 /* YBEventsTableViewController.m */,
+				6E9EDF991DECE64000077CB5 /* YBEventsTableViewController.xib */,
+				6E9A9DE71DF904DA000758A8 /* YBMonthCalendarViewController.h */,
+				6E9A9DE81DF904DA000758A8 /* YBMonthCalendarViewController.m */,
+				6E9A9DE91DF904DA000758A8 /* YBMonthCalendarViewController.xib */,
+				6E8C5EBF1E025A0F00395190 /* YBMenuTableViewController.h */,
+				6E8C5EC01E025A0F00395190 /* YBMenuTableViewController.m */,
+				6E8C5ED11E03362F00395190 /* YBWebViewViewController.h */,
+				6E8C5ED21E03362F00395190 /* YBWebViewViewController.m */,
+				6EBA7A821E1C324100C3336E /* YBDayCalendarViewController.h */,
+				6EBA7A831E1C324100C3336E /* YBDayCalendarViewController.m */,
+				6EBA7A841E1C324100C3336E /* YBDayCalendarViewController.xib */,
+				6ED41B8D1E203FFE004AE5E5 /* YBCalendarUpdatesTableViewController.h */,
+				6ED41B8E1E203FFE004AE5E5 /* YBCalendarUpdatesTableViewController.m */,
+				6ED41B901E20405C004AE5E5 /* YBEventDetailsTableViewController.h */,
+				6ED41B911E20405C004AE5E5 /* YBEventDetailsTableViewController.m */,
+				6ED41BAF1E2422E0004AE5E5 /* YBCustomNavigation.h */,
+				6ED41BB01E2422E0004AE5E5 /* YBCustomNavigation.m */,
+				6E5E04EA1E54008000200941 /* YBDayViewController.h */,
+				6E5E04EB1E54008000200941 /* YBDayViewController.m */,
+				6E5E04EC1E54008000200941 /* YBDayViewController.xib */,
+				6ECE0F9C1E3009BA0004DAC4 /* YBDayViewTableViewController.h */,
+				6ECE0F9D1E3009BA0004DAC4 /* YBDayViewTableViewController.m */,
+				6ECE0F9E1E3009BA0004DAC4 /* YBDayViewTableViewController.xib */,
+				6E888B921EAD78A000119F8B /* YBCoachMeVC.h */,
+				6E888B931EAD78A000119F8B /* YBCoachMeVC.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		6E0594F21DDE2093005790D1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6ED41BAC1E2405A3004AE5E5 /* YBCalendarTableViewCell.h */,
+				6ED41BAD1E2405A3004AE5E5 /* YBCalendarTableViewCell.m */,
+				6ED41B9F1E23FD7F004AE5E5 /* YBCalendarTableViewCell.xib */,
+				6ED41B9D1E23FD7F004AE5E5 /* YBCalendarSelectorViewController.h */,
+				6ED41B9E1E23FD7F004AE5E5 /* YBCalendarSelectorViewController.m */,
+				6E9EDF841DE8FF8100077CB5 /* YBCategoryTableViewCell.h */,
+				6E9EDF851DE8FF8100077CB5 /* YBCategoryTableViewCell.m */,
+				6E9EDF861DE8FF8100077CB5 /* YBCategoryTableViewCell.xib */,
+				6E9EDF921DECE5E300077CB5 /* YBEventTableViewCell.h */,
+				6E9EDF931DECE5E300077CB5 /* YBEventTableViewCell.m */,
+				6E9EDF941DECE5E300077CB5 /* YBEventTableViewCell.xib */,
+				6EC8FECD1DF91AA1004A542D /* YBMonthCalendarDateCell.h */,
+				6EC8FECE1DF91AA1004A542D /* YBMonthCalendarDateCell.m */,
+				6EC8FED01DFF2F95004A542D /* YBLoadMoreTableViewCell.h */,
+				6EC8FED11DFF2F95004A542D /* YBLoadMoreTableViewCell.m */,
+				6EC8FED21DFF2F95004A542D /* YBLoadMoreTableViewCell.xib */,
+				6E8C5EC21E02647100395190 /* YBUserProfileTableViewCell.h */,
+				6E8C5EC31E02647100395190 /* YBUserProfileTableViewCell.m */,
+				6E8C5EC41E02647100395190 /* YBUserProfileTableViewCell.xib */,
+				6E8C5EC71E02684400395190 /* YBMenuOptionsTableViewCell.h */,
+				6E8C5EC81E02684400395190 /* YBMenuOptionsTableViewCell.m */,
+				6E8C5EC91E02684400395190 /* YBMenuOptionsTableViewCell.xib */,
+				6E8C5ECC1E02686500395190 /* YBFooterTableViewCell.h */,
+				6E8C5ECD1E02686500395190 /* YBFooterTableViewCell.m */,
+				6E8C5ECE1E02686500395190 /* YBFooterTableViewCell.xib */,
+				6ED41B931E23FCA8004AE5E5 /* YBEventDetailsTableViewCell.h */,
+				6ED41B941E23FCA8004AE5E5 /* YBEventDetailsTableViewCell.m */,
+				6ED41B951E23FCA8004AE5E5 /* YBEventDetailsTableViewCell.xib */,
+				6ED41BA21E23FDC7004AE5E5 /* YBEventDtCalTableViewCell.h */,
+				6ED41BA31E23FDC7004AE5E5 /* YBEventDtCalTableViewCell.m */,
+				6ED41BA41E23FDC7004AE5E5 /* YBEventDtCalTableViewCell.xib */,
+				6ED41BA71E23FDDE004AE5E5 /* YBEventDtCateTableViewCell.h */,
+				6ED41BA81E23FDDE004AE5E5 /* YBEventDtCateTableViewCell.m */,
+				6ED41BA91E23FDDE004AE5E5 /* YBEventDtCateTableViewCell.xib */,
+				6E6B532C1E2821890060CF2F /* YBCalUpdatesTableViewCell.h */,
+				6E6B532D1E2821890060CF2F /* YBCalUpdatesTableViewCell.m */,
+				6E6B532E1E2821890060CF2F /* YBCalUpdatesTableViewCell.xib */,
+				6ECE0FA11E300A340004DAC4 /* YBHourTableViewCell.h */,
+				6ECE0FA21E300A340004DAC4 /* YBHourTableViewCell.m */,
+				6ECE0FA31E300A340004DAC4 /* YBHourTableViewCell.xib */,
+				6EA782D51E8185F5003510D8 /* YBMenuVersionCell.h */,
+				6EA782D61E8185F5003510D8 /* YBMenuVersionCell.m */,
+				6EA782D71E8185F5003510D8 /* YBMenuVersionCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		6E0594F31DDE20A0005790D1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6E9EDF6A1DE6078000077CB5 /* YBProfileAPI.h */,
+				6E9EDF6B1DE6078000077CB5 /* YBProfileAPI.m */,
+				6E9EDF6D1DE6272600077CB5 /* YBCalendarsAPI.h */,
+				6E9EDF6E1DE6272600077CB5 /* YBCalendarsAPI.m */,
+				6E9EDF701DE744C300077CB5 /* YBCalendarsStore.h */,
+				6E9EDF711DE744C300077CB5 /* YBCalendarsStore.m */,
+				6E9EDF731DE746F800077CB5 /* YBStore.h */,
+				6E9EDF741DE746F800077CB5 /* YBStore.m */,
+				6E9EDF761DE79F5E00077CB5 /* YBCalendarCategoryAPI.h */,
+				6E9EDF771DE79F5E00077CB5 /* YBCalendarCategoryAPI.m */,
+				6E9EDF791DE7FE9D00077CB5 /* YBCalendarCategoryStore.h */,
+				6E9EDF7A1DE7FE9D00077CB5 /* YBCalendarCategoryStore.m */,
+				6E9EDF8F1DEB8AD700077CB5 /* YBEventsAPI.h */,
+				6E9EDF901DEB8AD700077CB5 /* YBEventsAPI.m */,
+				6E9EDF9C1DED1F6100077CB5 /* YBEventsStore.h */,
+				6E9EDF9D1DED1F6100077CB5 /* YBEventsStore.m */,
+				6E9A9DE41DF8A366000758A8 /* YBUserAPI.h */,
+				6E9A9DE51DF8A366000758A8 /* YBUserAPI.m */,
+				6E8C5ED51E073E7900395190 /* YBProfileStore.h */,
+				6E8C5ED61E073E7900395190 /* YBProfileStore.m */,
+				6ED41B861E200C71004AE5E5 /* YBCalendarUpdatesAPI.h */,
+				6ED41B871E200C71004AE5E5 /* YBCalendarUpdatesAPI.m */,
+				6ED41B891E200E32004AE5E5 /* YBCalendarUpdatesStore.h */,
+				6ED41B8A1E200E32004AE5E5 /* YBCalendarUpdatesStore.m */,
+				DEFBC1F01F14EA54001DD4FF /* YBEventSyncToCalenderService.h */,
+				DEFBC1F11F14EA54001DD4FF /* YBEventSyncToCalenderService.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		6E0594F41DDE20AB005790D1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6ED41B801E200C05004AE5E5 /* YBCalendarUpdates+CoreDataClass.h */,
+				6ED41B811E200C05004AE5E5 /* YBCalendarUpdates+CoreDataClass.m */,
+				6ED41B821E200C05004AE5E5 /* YBCalendarUpdates+CoreDataProperties.h */,
+				6ED41B831E200C05004AE5E5 /* YBCalendarUpdates+CoreDataProperties.m */,
+				6E9EDF4E1DE3AB4E00077CB5 /* YBEvents+CoreDataClass.h */,
+				6E9EDF4F1DE3AB4E00077CB5 /* YBEvents+CoreDataClass.m */,
+				6E9EDF501DE3AB4E00077CB5 /* YBEvents+CoreDataProperties.h */,
+				6E9EDF511DE3AB4E00077CB5 /* YBEvents+CoreDataProperties.m */,
+				6E9EDF521DE3AB4E00077CB5 /* YBCalendars+CoreDataClass.h */,
+				6E9EDF531DE3AB4E00077CB5 /* YBCalendars+CoreDataClass.m */,
+				6E9EDF541DE3AB4E00077CB5 /* YBCalendars+CoreDataProperties.h */,
+				6E9EDF551DE3AB4E00077CB5 /* YBCalendars+CoreDataProperties.m */,
+				6E9EDF561DE3AB4E00077CB5 /* YBCalendarCategory+CoreDataClass.h */,
+				6E9EDF571DE3AB4E00077CB5 /* YBCalendarCategory+CoreDataClass.m */,
+				6E9EDF581DE3AB4E00077CB5 /* YBCalendarCategory+CoreDataProperties.h */,
+				6E9EDF591DE3AB4E00077CB5 /* YBCalendarCategory+CoreDataProperties.m */,
+				6E9EDF461DE364A500077CB5 /* YBUser+CoreDataClass.h */,
+				6E9EDF471DE364A500077CB5 /* YBUser+CoreDataClass.m */,
+				6E9EDF481DE364A500077CB5 /* YBUser+CoreDataProperties.h */,
+				6E9EDF491DE364A500077CB5 /* YBUser+CoreDataProperties.m */,
+				6ED12B3D1DDE1B3B0026EFF9 /* Yearbook.xcdatamodeld */,
+				6E5E04F21E5E220600200941 /* YBViewWithEvent.h */,
+				6E5E04F31E5E220600200941 /* YBViewWithEvent.m */,
+				DE3936241F188B8E002D24D1 /* YBEventToSyncWithCalendar.h */,
+				DE3936251F188B8E002D24D1 /* YBEventToSyncWithCalendar.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		6E6D16D91EA7C77F0081B046 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				419CD96A1F46FD1A00211593 /* Tutorial */,
+				1E6643DF1EE974880051F90B /* YBConstants.h */,
+				1E6643E01EE974880051F90B /* YBConstants.m */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6ED12B251DDE1B3A0026EFF9 = {
+			isa = PBXGroup;
+			children = (
+				6ED12B301DDE1B3B0026EFF9 /* Yearbook */,
+				6ED12B2F1DDE1B3B0026EFF9 /* Products */,
+				8FD0116896B6A4D9C7C8BA54 /* Pods */,
+				DD12463BBE3E2646B5B60197 /* Frameworks */,
+				1DBB8C911F6A839000681873 /* Mars Calendar copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		6ED12B2F1DDE1B3B0026EFF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ED12B2E1DDE1B3B0026EFF9 /* Mars Calendar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ED12B301DDE1B3B0026EFF9 /* Yearbook */ = {
+			isa = PBXGroup;
+			children = (
+				6E6D16D91EA7C77F0081B046 /* Resources */,
+				6E9EDF391DE28F0300077CB5 /* Yearbook.entitlements */,
+				6E0594F41DDE20AB005790D1 /* Models */,
+				6E0594F31DDE20A0005790D1 /* Services */,
+				6E0594F21DDE2093005790D1 /* Views */,
+				6E0594F11DDE2082005790D1 /* Controllers */,
+				6ED12B341DDE1B3B0026EFF9 /* AppDelegate.h */,
+				6ED12B351DDE1B3B0026EFF9 /* AppDelegate.m */,
+				6ED12B3A1DDE1B3B0026EFF9 /* Main.storyboard */,
+				6ED12B401DDE1B3B0026EFF9 /* Assets.xcassets */,
+				6ED12B421DDE1B3B0026EFF9 /* LaunchScreen.storyboard */,
+				6ED12B451DDE1B3B0026EFF9 /* Info.plist */,
+				6ED12B311DDE1B3B0026EFF9 /* Supporting Files */,
+			);
+			path = Yearbook;
+			sourceTree = "<group>";
+		};
+		6ED12B311DDE1B3B0026EFF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ED12B321DDE1B3B0026EFF9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8FD0116896B6A4D9C7C8BA54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EFB61A47DD253F120E1D650 /* Pods-Yearbook.debug.xcconfig */,
+				F534CC98D2C6393CB5F2A8C9 /* Pods-Yearbook.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD12463BBE3E2646B5B60197 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC7EABD20AF3386BD154BCED /* Pods_Yearbook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6ED12B2D1DDE1B3A0026EFF9 /* Mars Calendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ED12B481DDE1B3B0026EFF9 /* Build configuration list for PBXNativeTarget "Mars Calendar" */;
+			buildPhases = (
+				38EDC097DEA93E149BAD778E /* [CP] Check Pods Manifest.lock */,
+				6ED12B2A1DDE1B3A0026EFF9 /* Sources */,
+				6ED12B2B1DDE1B3A0026EFF9 /* Frameworks */,
+				6ED12B2C1DDE1B3A0026EFF9 /* Resources */,
+				C74CF95B77E97B5E5D108A93 /* [CP] Embed Pods Frameworks */,
+				A6682630ADB70734FE935106 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mars Calendar";
+			productName = Yearbook;
+			productReference = 6ED12B2E1DDE1B3B0026EFF9 /* Mars Calendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ED12B261DDE1B3A0026EFF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YB;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Mars IS";
+				TargetAttributes = {
+					6ED12B2D1DDE1B3A0026EFF9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3X2EJV2394;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 6ED12B291DDE1B3A0026EFF9 /* Build configuration list for PBXProject "Mars Calendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6ED12B251DDE1B3A0026EFF9;
+			productRefGroup = 6ED12B2F1DDE1B3B0026EFF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ED12B2D1DDE1B3A0026EFF9 /* Mars Calendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6ED12B2C1DDE1B3A0026EFF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ED12B441DDE1B3B0026EFF9 /* LaunchScreen.storyboard in Resources */,
+				6EC8FED41DFF2F95004A542D /* YBLoadMoreTableViewCell.xib in Resources */,
+				6E8C5EC61E02647100395190 /* YBUserProfileTableViewCell.xib in Resources */,
+				417EFFB01F4C23B300EE6AF0 /* 1_Tutorial@2x.png in Resources */,
+				41826C711F5552C90044A535 /* 4_Tutorial@3x.png in Resources */,
+				6E9EDF961DECE5E300077CB5 /* YBEventTableViewCell.xib in Resources */,
+				417EFFB61F4C23B300EE6AF0 /* 3_Tutorial@2x.png in Resources */,
+				6ECE0FA01E3009BA0004DAC4 /* YBDayViewTableViewController.xib in Resources */,
+				6E6B53301E2821890060CF2F /* YBCalUpdatesTableViewCell.xib in Resources */,
+				417EFFB51F4C23B300EE6AF0 /* 3_Tutorial@1x.png in Resources */,
+				6ED41BAB1E23FDDE004AE5E5 /* YBEventDtCateTableViewCell.xib in Resources */,
+				6E8C5ED01E02686500395190 /* YBFooterTableViewCell.xib in Resources */,
+				41826C6F1F5552C90044A535 /* 4_Tutorial@1x.png in Resources */,
+				417EFFBC1F4C23B300EE6AF0 /* 6_Tutorial@2x.png in Resources */,
+				6E5E04EE1E54008000200941 /* YBDayViewController.xib in Resources */,
+				6E9EDF881DE8FF8100077CB5 /* YBCategoryTableViewCell.xib in Resources */,
+				417EFFBA1F4C23B300EE6AF0 /* 5_Tutorial@3x.png in Resources */,
+				6ED12B411DDE1B3B0026EFF9 /* Assets.xcassets in Resources */,
+				6ED12B3C1DDE1B3B0026EFF9 /* Main.storyboard in Resources */,
+				6ED41BA61E23FDC7004AE5E5 /* YBEventDtCalTableViewCell.xib in Resources */,
+				417EFFAF1F4C23B300EE6AF0 /* 1_Tutorial@1x.png in Resources */,
+				6E9EDF9B1DECE64000077CB5 /* YBEventsTableViewController.xib in Resources */,
+				41826C701F5552C90044A535 /* 4_Tutorial@2x.png in Resources */,
+				417EFFB81F4C23B300EE6AF0 /* 5_Tutorial@1x.png in Resources */,
+				6ED41B971E23FCA8004AE5E5 /* YBEventDetailsTableViewCell.xib in Resources */,
+				6ED41BA11E23FD7F004AE5E5 /* YBCalendarTableViewCell.xib in Resources */,
+				417EFFB91F4C23B300EE6AF0 /* 5_Tutorial@2x.png in Resources */,
+				6E8C5ECB1E02684400395190 /* YBMenuOptionsTableViewCell.xib in Resources */,
+				417EFFB31F4C23B300EE6AF0 /* 2_Tutorial@2x.png in Resources */,
+				417EFFB11F4C23B300EE6AF0 /* 1_Tutorial@3x.png in Resources */,
+				417EFFB21F4C23B300EE6AF0 /* 2_Tutorial@1x.png in Resources */,
+				6EBA7A861E1C324100C3336E /* YBDayCalendarViewController.xib in Resources */,
+				417EFFB41F4C23B300EE6AF0 /* 2_Tutorial@3x.png in Resources */,
+				6EA782D91E8185F5003510D8 /* YBMenuVersionCell.xib in Resources */,
+				417EFFB71F4C23B300EE6AF0 /* 3_Tutorial@3x.png in Resources */,
+				6ECE0FA51E300A340004DAC4 /* YBHourTableViewCell.xib in Resources */,
+				6E9A9DEB1DF904DA000758A8 /* YBMonthCalendarViewController.xib in Resources */,
+				417EFFBB1F4C23B300EE6AF0 /* 6_Tutorial@1x.png in Resources */,
+				417EFFBD1F4C23B300EE6AF0 /* 6_Tutorial@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38EDC097DEA93E149BAD778E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A6682630ADB70734FE935106 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yearbook/Pods-Yearbook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C74CF95B77E97B5E5D108A93 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yearbook/Pods-Yearbook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ED12B2A1DDE1B3A0026EFF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ED41B8C1E203CFB004AE5E5 /* YBCalendarUpdatesStore.m in Sources */,
+				6E9EDF6F1DE6272600077CB5 /* YBCalendarsAPI.m in Sources */,
+				6ED41BA51E23FDC7004AE5E5 /* YBEventDtCalTableViewCell.m in Sources */,
+				6EC8FECF1DF91AA1004A542D /* YBMonthCalendarDateCell.m in Sources */,
+				6E9EDF9A1DECE64000077CB5 /* YBEventsTableViewController.m in Sources */,
+				6ED41BAA1E23FDDE004AE5E5 /* YBEventDtCateTableViewCell.m in Sources */,
+				6E8C5ECF1E02686500395190 /* YBFooterTableViewCell.m in Sources */,
+				6ED41B8F1E203FFE004AE5E5 /* YBCalendarUpdatesTableViewController.m in Sources */,
+				6E6B532F1E2821890060CF2F /* YBCalUpdatesTableViewCell.m in Sources */,
+				1E6643E11EE974880051F90B /* YBConstants.m in Sources */,
+				6E9A9DE61DF8A366000758A8 /* YBUserAPI.m in Sources */,
+				6ED41BB11E2422E0004AE5E5 /* YBCustomNavigation.m in Sources */,
+				6E9EDF9E1DED1F6100077CB5 /* YBEventsStore.m in Sources */,
+				6E5E04F41E5E220600200941 /* YBViewWithEvent.m in Sources */,
+				6ED41B961E23FCA8004AE5E5 /* YBEventDetailsTableViewCell.m in Sources */,
+				6ED41BA01E23FD7F004AE5E5 /* YBCalendarSelectorViewController.m in Sources */,
+				6ED41B921E20405C004AE5E5 /* YBEventDetailsTableViewController.m in Sources */,
+				DEFBC1F21F14EA54001DD4FF /* YBEventSyncToCalenderService.m in Sources */,
+				6E9A9DEA1DF904DA000758A8 /* YBMonthCalendarViewController.m in Sources */,
+				6EBA7A851E1C324100C3336E /* YBDayCalendarViewController.m in Sources */,
+				6E9EDF6C1DE6078000077CB5 /* YBProfileAPI.m in Sources */,
+				6E5E04ED1E54008000200941 /* YBDayViewController.m in Sources */,
+				6E9EDF7B1DE7FE9D00077CB5 /* YBCalendarCategoryStore.m in Sources */,
+				6E9EDF781DE79F5E00077CB5 /* YBCalendarCategoryAPI.m in Sources */,
+				6ED12B391DDE1B3B0026EFF9 /* ViewController.m in Sources */,
+				6E9EDF8B1DE9023100077CB5 /* YBCalendarSelectorTableViewController.m in Sources */,
+				6ED41B881E200C71004AE5E5 /* YBCalendarUpdatesAPI.m in Sources */,
+				6E8950801DDE547C00C95A6F /* CAPSPageMenu.m in Sources */,
+				6EA782D81E8185F5003510D8 /* YBMenuVersionCell.m in Sources */,
+				6E8C5ECA1E02684400395190 /* YBMenuOptionsTableViewCell.m in Sources */,
+				DE3936261F188B8E002D24D1 /* YBEventToSyncWithCalendar.m in Sources */,
+				6ECE0F9F1E3009BA0004DAC4 /* YBDayViewTableViewController.m in Sources */,
+				6E9EDF911DEB8AD700077CB5 /* YBEventsAPI.m in Sources */,
+				6E9EDF751DE746F800077CB5 /* YBStore.m in Sources */,
+				6EBA7A891E1C37FB00C3336E /* YBDrawerViewController.m in Sources */,
+				6E8C5ED31E03362F00395190 /* YBWebViewViewController.m in Sources */,
+				6E9EDF721DE744C300077CB5 /* YBCalendarsStore.m in Sources */,
+				6ED41BAE1E2405A3004AE5E5 /* YBCalendarTableViewCell.m in Sources */,
+				6E9EDF8E1DEB5D3B00077CB5 /* YBDismissSegue.m in Sources */,
+				6ED12B3F1DDE1B3B0026EFF9 /* Yearbook.xcdatamodeld in Sources */,
+				6EC8FED31DFF2F95004A542D /* YBLoadMoreTableViewCell.m in Sources */,
+				6E8C5EC51E02647100395190 /* YBUserProfileTableViewCell.m in Sources */,
+				6ED12B361DDE1B3B0026EFF9 /* AppDelegate.m in Sources */,
+				6E9EDF871DE8FF8100077CB5 /* YBCategoryTableViewCell.m in Sources */,
+				6E9EDF951DECE5E300077CB5 /* YBEventTableViewCell.m in Sources */,
+				6E8C5EC11E025A1000395190 /* YBMenuTableViewController.m in Sources */,
+				6ECE0FA41E300A340004DAC4 /* YBHourTableViewCell.m in Sources */,
+				6E888B941EAD78A000119F8B /* YBCoachMeVC.m in Sources */,
+				6ED12B331DDE1B3B0026EFF9 /* main.m in Sources */,
+				6E8C5ED71E073E7900395190 /* YBProfileStore.m in Sources */,
+				6E8950781DDE3B3500C95A6F /* YBMainScreenViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6ED12B3A1DDE1B3B0026EFF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ED12B3B1DDE1B3B0026EFF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6ED12B421DDE1B3B0026EFF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ED12B431DDE1B3B0026EFF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6ED12B461DDE1B3B0026EFF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6ED12B471DDE1B3B0026EFF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6ED12B491DDE1B3B0026EFF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EFB61A47DD253F120E1D650 /* Pods-Yearbook.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Yearbook/Yearbook.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mars Information Services Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 3X2EJV2394;
+				GCC_NO_COMMON_BLOCKS = NO;
+				INFOPLIST_FILE = Yearbook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"ADAL\"",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"DZNEmptyDataSet\"",
+					"-framework",
+					"\"DateTools\"",
+					"-framework",
+					"\"FSCalendar\"",
+					"-framework",
+					"\"ISHPullUp\"",
+					"-framework",
+					"\"LTHMonthYearPickerView\"",
+					"-framework",
+					"\"NSDate_timezones\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"YTKNetwork\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mars.Calendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "917adc64-bded-4984-893c-dc0e3a69a100";
+				PROVISIONING_PROFILE_SPECIFIER = Dev_Profile_Dist;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6ED12B4A1DDE1B3B0026EFF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F534CC98D2C6393CB5F2A8C9 /* Pods-Yearbook.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Yearbook/Yearbook.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mars Information Services Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 3X2EJV2394;
+				GCC_NO_COMMON_BLOCKS = NO;
+				INFOPLIST_FILE = Yearbook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"ADAL\"",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"DZNEmptyDataSet\"",
+					"-framework",
+					"\"DateTools\"",
+					"-framework",
+					"\"FSCalendar\"",
+					"-framework",
+					"\"ISHPullUp\"",
+					"-framework",
+					"\"LTHMonthYearPickerView\"",
+					"-framework",
+					"\"NSDate_timezones\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"YTKNetwork\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mars.Calendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "917adc64-bded-4984-893c-dc0e3a69a100";
+				PROVISIONING_PROFILE_SPECIFIER = Dev_Profile_Dist;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ED12B291DDE1B3A0026EFF9 /* Build configuration list for PBXProject "Mars Calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ED12B461DDE1B3B0026EFF9 /* Debug */,
+				6ED12B471DDE1B3B0026EFF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ED12B481DDE1B3B0026EFF9 /* Build configuration list for PBXNativeTarget "Mars Calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ED12B491DDE1B3B0026EFF9 /* Debug */,
+				6ED12B4A1DDE1B3B0026EFF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6ED12B3D1DDE1B3B0026EFF9 /* Yearbook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6ED12B3E1DDE1B3B0026EFF9 /* Yearbook.xcdatamodel */,
+			);
+			currentVersion = 6ED12B3E1DDE1B3B0026EFF9 /* Yearbook.xcdatamodel */;
+			path = Yearbook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6ED12B261DDE1B3A0026EFF9 /* Project object */;
+}

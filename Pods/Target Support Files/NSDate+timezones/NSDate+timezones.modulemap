@@ -1,0 +1,6 @@
+framework module NSDate_timezones {
+  umbrella header "NSDate+timezones-umbrella.h"
+
+  export *
+  module * { export * }
+}

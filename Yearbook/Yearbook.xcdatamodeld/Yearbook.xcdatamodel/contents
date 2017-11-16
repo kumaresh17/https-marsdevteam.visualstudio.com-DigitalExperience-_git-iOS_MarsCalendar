@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16D32" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="YBCalendarCategory" representedClassName="YBCalendarCategory" syncable="YES" codeGenerationType="class">
+        <attribute name="categoryColor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="categoryGUID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="categoryID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="categoryName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastUpdated" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="calendar" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="YBCalendars" inverseName="categories" inverseEntity="YBCalendars" syncable="YES"/>
+        <relationship name="event" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="YBEvents" inverseName="category" inverseEntity="YBEvents" syncable="YES"/>
+    </entity>
+    <entity name="YBCalendars" representedClassName="YBCalendars" syncable="YES" codeGenerationType="class">
+        <attribute name="calendarid" attributeType="String" syncable="YES"/>
+        <attribute name="calendarlogo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="calendarname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="color" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastUpdated" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="categories" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="YBCalendarCategory" inverseName="calendar" inverseEntity="YBCalendarCategory" syncable="YES"/>
+        <relationship name="event" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="YBEvents" inverseName="calendar" inverseEntity="YBEvents" syncable="YES"/>
+        <relationship name="updates" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="YBCalendarUpdates" inverseName="calendar" inverseEntity="YBCalendarUpdates" syncable="YES"/>
+    </entity>
+    <entity name="YBCalendarUpdates" representedClassName="YBCalendarUpdates" syncable="YES" codeGenerationType="class">
+        <attribute name="lastUpdated" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="updateContent" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="calendar" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="YBCalendars" inverseName="updates" inverseEntity="YBCalendars" syncable="YES"/>
+    </entity>
+    <entity name="YBEvents" representedClassName="YBEvents" syncable="YES" codeGenerationType="class">
+        <attribute name="calendarname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="calendarYear" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="categoryname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="classname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="color" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="endtime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="eventDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="eventdescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventID" attributeType="String" syncable="YES"/>
+        <attribute name="eventtypeid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventtypename" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fullday" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="lastUpdated" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="starttime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="timezone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="calendar" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="YBCalendars" inverseName="event" inverseEntity="YBCalendars" syncable="YES"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="YBCalendarCategory" inverseName="event" inverseEntity="YBCalendarCategory" syncable="YES"/>
+    </entity>
+    <entity name="YBUser" representedClassName="YBUser" syncable="YES" codeGenerationType="class">
+        <attribute name="delveMyDriveURLString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="emailAddressForFeedback" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="emailAddressForTechnicalSupport" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastRefresh" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="loginEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="loginName" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="YBCalendarCategory" positionX="63" positionY="-18" width="128" height="148"/>
+        <element name="YBCalendars" positionX="252" positionY="-7" width="128" height="165"/>
+        <element name="YBCalendarUpdates" positionX="261" positionY="171" width="128" height="88"/>
+        <element name="YBEvents" positionX="88" positionY="180" width="128" height="330"/>
+        <element name="YBUser" positionX="-101" positionY="-18" width="128" height="133"/>
+    </elements>
+</model>

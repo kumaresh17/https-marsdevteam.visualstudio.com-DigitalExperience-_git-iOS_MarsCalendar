@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "31c51f91-d82b-c44a-80b3-8e31ced4a121",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "31c51f91-d82b-c44a-80b3-8e31ced4a121" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "31c51f91-d82b-c44a-80b3-8e31ced4a121" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1AE81B2B-9F83-4004-9C1F-C1BC82C2BA16",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "31c51f91-d82b-c44a-80b3-8e31ced4a121" : "Yearbook_SVN\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Yearbook",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "trunk\/SourceCode\/iOS\/Yearbook\/Yearbook.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/10.64.220.213\/yearbook_mobile_app",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "31c51f91-d82b-c44a-80b3-8e31ced4a121"
+    }
+  ]
+}
